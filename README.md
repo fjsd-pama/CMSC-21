@@ -1,4 +1,2 @@
-/**
-* by J.A. Pama
-*
-**/
+# CMSC 21
+* Fundamentals of Programming
