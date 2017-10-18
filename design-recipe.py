@@ -51,14 +51,14 @@ camera_switch_on(0.2, 2) #True
 #define BMI_CONSTANT 22.0
 #define AGE_CONSTANT 45
 
-int risk_level(int BMI, int age){
-	if ((BMI >= BMI_CONSTANT) && (age >= AGE_CONSTANT)){
-		return 3;
-	}else if (((BMI >= BMI_CONSTANT) && (age < AGE_CONSTANT)) || ((BMI < BMI_CONSTANT) && (age >= AGE_CONSTANT))){
-		return 2;
-    }else{
-		return 1;
-	}
-}
+#int risk_level(int BMI, int age){
+#	if ((BMI >= BMI_CONSTANT) && (age >= AGE_CONSTANT)){
+#		return 3;
+#	}else if (((BMI >= BMI_CONSTANT) && (age < AGE_CONSTANT)) || ((BMI < BMI_CONSTANT) && (age >= AGE_CONSTANT))){
+#		return 2;
+#    }else{
+#		return 1;
+#	}
+#}
 
 
