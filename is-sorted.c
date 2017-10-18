@@ -17,7 +17,7 @@ int is_sorted(float arr[], int len){
 
 
 int main(){
-	float list_1[] = {1.99, 2.0, 3.4, 4.9, 5.3};
+    float list_1[] = {1.99, 2.0, 3.4, 4.9, 5.3};
     float list_2[] = {2, 2, 3, 4, 5};
     float list_3[] = {2, 2, 1, 4, 3};
     float list_4[] = {2, 2, 2, 2, 2};
