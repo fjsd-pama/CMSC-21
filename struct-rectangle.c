@@ -58,13 +58,6 @@ bool withinRectangle(Rectangle r, Point p) {
     return (isXTrue && isYTrue);
 }
 
-// bool withinRectangle(Rectangle r, Point p) {
-//     bool isXTrue = (p.x >= (r.lower_right.x - r.upper_left.x) && p.x <= (r.lower_right.x - r.upper_left.x));
-//     bool isYTrue = (p.y >= (r.lower_right.y - r.upper_left.y) && p.y <= (r.upper_left.y - r.lower_right.y));
-    
-//     return (isXTrue && isYTrue);
-// }
-
 int main(){
 
 	return 0;
