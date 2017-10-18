@@ -69,39 +69,6 @@ typedef struct{
 	int denominator;
 } Fraction;
 
-//float -> Fraction
-//Converts a given decimal n to a fraction
-/*Fraction toFraction(float n){
-	int sth = n; //the integer counterpart of n
-	int decimalPart = n - sth;
-	if(decimalPart == 0){
-		Fraction result = {n, 1};
-		return toLowestTerm(result);
-	}
-
-	int ten = 10;
-	int numerator = decimalPart;
-	while(decimalPart != 0){
-		decimalPart = (ten * n);
-		numerator = (d)
-		ten *= 10;
-
-	}
-	Fraction result = {(n * ten), ten};
-	return toLowestTerm(result);
-}*/
-
-/*Fraction toFraction(float n){
-	int sth = n; //the integer counterpart of n
-	int decimalPart = n - sth;
-	if(decimalPart == 0){
-		Fraction result = {n, 1};
-		// return toLowestTerm(result);
-	}
-
-	return(Fraction){(((sth - decimalPart) * pow(10, 10)) + (decimalPart * pow(10, 10))), pow(10, 10)};
-}*/
-
 
 //int, int -> int
 //Returns the maximum number given two numbers
@@ -156,7 +123,6 @@ Fraction toFraction(float n){
 
 
 int main(){
-	printf("YEHEY! 2D ARRAYS NA TA :D\nThank You, Lord.\nYou are so marvelous.\n");
 	int matrix1[4][4] = {
 		{1, 2, 3, 4},
 		{5, 6, 7, 8},
